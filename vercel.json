@@ -1,0 +1,12 @@
+{
+  "buildCommand": "next build",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ],
+  "github": {
+    "silent": true
+  }
+}
